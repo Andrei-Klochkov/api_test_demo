@@ -1,0 +1,9 @@
+[№],any_data,correct_first_symbol,correct_symbols,no_double_dot,no_eight_symbols_without_letter,correct_last_symbol,correct_amount_symbols,result
+0,True,True,True,True,True,True,True,Успех
+1,True,True,True,True,True,True,False,Недопустимое количество символов
+2,True,True,True,True,True,False,True,Недопустимый последний символ
+3,True,True,True,True,False,True,True,8+ допустимых символов без букв
+4,True,True,True,False,True,True,True,Есть 2 точки подряд
+5,True,True,False,True,True,True,True,Недопустимые символы
+6,True,False,True,True,True,True,True,Недопустимый первый символ
+7,False,True,True,True,True,True,True,Нет данных

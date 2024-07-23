@@ -1,0 +1,13 @@
+[№],letters_lower,digits,dots,[blocked],[reason]
+0,True,True,True,False,
+1,True,True,False,False,
+2,True,False,True,False,
+3,True,False,False,False,
+4,False,True,True,False,
+5,False,True,False,False,
+6,False,False,True,True,"Одни точки в имени пользователя не допускаются
+
+"
+7,False,False,False,True,"Должны быть хоть какие-то данные
+
+"

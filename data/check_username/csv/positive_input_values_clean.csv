@@ -1,0 +1,25 @@
+[№],first_symbol,rest_symbols,last_symbol
+0,letter_lower,"('letter_lower', 'digit', 'dot')",letter_lower
+1,letter_lower,"('letter_lower', 'digit', 'dot')",digit
+2,letter_lower,"('letter_lower', 'digit', False)",letter_lower
+3,letter_lower,"('letter_lower', 'digit', False)",digit
+4,letter_lower,"('letter_lower', False, 'dot')",letter_lower
+5,letter_lower,"('letter_lower', False, 'dot')",digit
+6,letter_lower,"('letter_lower', False, False)",letter_lower
+7,letter_lower,"('letter_lower', False, False)",digit
+8,letter_lower,"(False, 'digit', 'dot')",letter_lower
+9,letter_lower,"(False, 'digit', 'dot')",digit
+10,letter_lower,"(False, 'digit', False)",letter_lower
+11,letter_lower,"(False, 'digit', False)",digit
+12,digit,"('letter_lower', 'digit', 'dot')",letter_lower
+13,digit,"('letter_lower', 'digit', 'dot')",digit
+14,digit,"('letter_lower', 'digit', False)",letter_lower
+15,digit,"('letter_lower', 'digit', False)",digit
+16,digit,"('letter_lower', False, 'dot')",letter_lower
+17,digit,"('letter_lower', False, 'dot')",digit
+18,digit,"('letter_lower', False, False)",letter_lower
+19,digit,"('letter_lower', False, False)",digit
+20,digit,"(False, 'digit', 'dot')",letter_lower
+21,digit,"(False, 'digit', 'dot')",digit
+22,digit,"(False, 'digit', False)",letter_lower
+23,digit,"(False, 'digit', False)",digit

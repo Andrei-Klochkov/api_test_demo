@@ -1,0 +1,49 @@
+[№],first_symbol,rest_symbols,last_symbol,[blocked],[reason]
+0,letter_lower,"('letter_lower', 'digit', 'dot')",letter_lower,False,
+1,letter_lower,"('letter_lower', 'digit', 'dot')",digit,False,
+2,letter_lower,"('letter_lower', 'digit', False)",letter_lower,False,
+3,letter_lower,"('letter_lower', 'digit', False)",digit,False,
+4,letter_lower,"('letter_lower', False, 'dot')",letter_lower,False,
+5,letter_lower,"('letter_lower', False, 'dot')",digit,False,
+6,letter_lower,"('letter_lower', False, False)",letter_lower,False,
+7,letter_lower,"('letter_lower', False, False)",digit,False,
+8,letter_lower,"(False, 'digit', 'dot')",letter_lower,False,
+9,letter_lower,"(False, 'digit', 'dot')",digit,False,
+10,letter_lower,"(False, 'digit', False)",letter_lower,False,
+11,letter_lower,"(False, 'digit', False)",digit,False,
+12,letter_lower,"(False, False, 'dot')",letter_lower,True,"Одни точки в остальных символах не допускаются!
+
+"
+13,letter_lower,"(False, False, 'dot')",digit,True,"Одни точки в остальных символах не допускаются!
+
+"
+14,letter_lower,"(False, False, False)",letter_lower,True,"Минимальный размер строки 6 символов!
+
+"
+15,letter_lower,"(False, False, False)",digit,True,"Минимальный размер строки 6 символов!
+
+"
+16,digit,"('letter_lower', 'digit', 'dot')",letter_lower,False,
+17,digit,"('letter_lower', 'digit', 'dot')",digit,False,
+18,digit,"('letter_lower', 'digit', False)",letter_lower,False,
+19,digit,"('letter_lower', 'digit', False)",digit,False,
+20,digit,"('letter_lower', False, 'dot')",letter_lower,False,
+21,digit,"('letter_lower', False, 'dot')",digit,False,
+22,digit,"('letter_lower', False, False)",letter_lower,False,
+23,digit,"('letter_lower', False, False)",digit,False,
+24,digit,"(False, 'digit', 'dot')",letter_lower,False,
+25,digit,"(False, 'digit', 'dot')",digit,False,
+26,digit,"(False, 'digit', False)",letter_lower,False,
+27,digit,"(False, 'digit', False)",digit,False,
+28,digit,"(False, False, 'dot')",letter_lower,True,"Одни точки в остальных символах не допускаются!
+
+"
+29,digit,"(False, False, 'dot')",digit,True,"Одни точки в остальных символах не допускаются!
+
+"
+30,digit,"(False, False, False)",letter_lower,True,"Минимальный размер строки 6 символов!
+
+"
+31,digit,"(False, False, False)",digit,True,"Минимальный размер строки 6 символов!
+
+"

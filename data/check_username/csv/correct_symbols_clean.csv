@@ -1,0 +1,7 @@
+[№],letters_lower,digits,dots
+0,True,True,True
+1,True,True,False
+2,True,False,True
+3,True,False,False
+4,False,True,True
+5,False,True,False
