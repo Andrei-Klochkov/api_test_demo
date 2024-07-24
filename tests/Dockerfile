@@ -2,11 +2,11 @@ FROM alpine
 
 SHELL ["/bin/sh", "-c"]
 
-WORKDIR /usr/test_app
+WORKDIR /usr/tests
 
-COPY app/ app/
+COPY tests/ tests/
 COPY settings.env .
-COPY data/check_username/result_messages.py data/check_username/
+COPY data/ data/
 
 RUN apk update && \
     apk add --update --no-cache python3 && \
@@ -14,9 +14,9 @@ RUN apk update && \
     python -m venv .venv && \
     source .venv/bin/activate && \
     pip install --upgrade pip && \
-    pip install --no-cache-dir -r app/requirements.txt
+    pip install --no-cache-dir -r tests/requirements.txt && \
+    sed -i 's!^TEST_HOST = .*$!TEST_HOST = simple_api_app!' settings.env
 
 CMD source .venv/bin/activate; \
-    python app/src/main.py
-
-EXPOSE 5000:5000
+    pytest -s -v tests/; \
+    /bin/sh
