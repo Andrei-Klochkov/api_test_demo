@@ -1,6 +1,7 @@
 Демонстрационный проект тестирования API.
 
 Сборка и запуск в Docker из root-каталога проекта:
+
 	docker build -t simple_api_img -f app/Dockerfile .
 	docker build -t tests_for_simple_api_img -f tests/Dockerfile .
   
